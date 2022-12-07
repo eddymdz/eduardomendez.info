@@ -1,0 +1,12 @@
+baseURL = "https://eddymdz.github.io/eduardomendezinfo/"
+languageCode = "en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+staticDir = ['static']
+title = "Eduardo Méndez"
+
+[languages]
+   [languages.en]
+        languageName = "EN"
+        weight = 1
+        title = "Eduardo Mendez"
