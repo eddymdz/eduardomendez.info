@@ -1,4 +1,4 @@
-baseURL = "https://eddymdz.github.io/eduardomendezinfo/"
+baseurl = "/"
 languageCode = "en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
