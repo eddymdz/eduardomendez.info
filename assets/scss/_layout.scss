@@ -114,7 +114,11 @@
 		position: relative;
 		padding: 40px;
 
-		.about {
+		.about, .skills {
+
+			.category {
+				font-weight: bold;
+			}
 
 			h2 {
 				text-transform: uppercase;
