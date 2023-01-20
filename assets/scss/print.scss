@@ -1,0 +1,28 @@
+@media print { 
+    @page {
+        margin: 0%;
+    }
+
+    .container .left .profileText .profileImg {
+        width: 100px!important;
+        height: 100px!important;
+    }
+
+    body {
+        font-size: small;
+    }
+
+    .container .left .contactInfo ul li .icon {
+        font-size: small!important;
+        width: auto!important;
+    }
+
+    .container {
+        grid-template-columns: 1fr 2fr!important;
+    }
+
+
+    #pukara {
+        page-break-after: always;
+    }
+}
