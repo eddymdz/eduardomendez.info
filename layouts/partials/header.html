@@ -34,4 +34,13 @@ fingerprint }}
       crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}"
       crossorigin="anonymous" media="screen,print" />
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TTSN39L6Y"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4TTSN39L6Y');
+   </script>
 </head>
