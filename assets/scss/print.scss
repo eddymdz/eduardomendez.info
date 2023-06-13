@@ -3,9 +3,10 @@
         margin: 0%;
     }
 
-    .container .left .profileText .profileImg {
-        width: 100px!important;
-        height: 100px!important;
+
+    .container .left  {
+        background: #fff;
+        padding-bottom: 0px!important;
     }
 
     body {
@@ -18,11 +19,47 @@
     }
 
     .container {
-        grid-template-columns: 1fr 2fr!important;
+        grid-template-columns: none!important;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .container .left .contactInfo ul li span,
+    a.contact_links, 
+    .container .left .contactInfo .title {
+        color: #1d242a!important;
+    }
+
+     
+
+    .container .left .profileText {
+        span, h2 {
+            color: #1d242a!important;
+        }
+    } 
+
+    .container .left .profileText .profileImg {
+        display: none!important;
     }
 
 
-    #pukara {
+    .pagebreak-after, .pagebreak-before {
+        clear: both;
+    }
+
+    .pagebreak-before {
+        page-break-before: always;
+        margin-top: 40px;
+    }
+
+    .pagebreak-after {
         page-break-after: always;
     }
+
+    .personal-website {
+        display: block!important;
+    }
+      
 }
